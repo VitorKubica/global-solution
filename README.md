@@ -121,7 +121,7 @@ STATUS GERAL: ✘ CRITICO
 
 ## Link do Vídeo no YouTube
 
-> *(inserir link após gravação)*
+> https://youtu.be/YRlZZ-ecPFI
 
 ---
 
