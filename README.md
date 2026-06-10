@@ -74,7 +74,7 @@ STATUS_ALERTA  = (reserva < 40 OR consumo > 75)
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/<seu-usuario>/global-solution-aurora1
+git clone https://github.com/VitorKubica/global-solution-aurora1
 cd global-solution-aurora1
 
 # Executar (Python 3.8+ — sem dependências externas)
