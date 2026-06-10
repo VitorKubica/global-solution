@@ -1,0 +1,43 @@
+tipo,nome,valor,unidade,horario
+modulo_status,suporte_vida,1,bool,00:00
+modulo_status,energia,1,bool,00:00
+modulo_status,comunicacao,0,bool,00:00
+modulo_status,habitat,1,bool,00:00
+modulo_status,laboratorio,1,bool,00:00
+modulo_status,armazenamento,1,bool,00:00
+energia,geracao_solar,28.5,kWh,06:00
+energia,consumo,72.0,kWh,06:00
+energia,reserva,45.0,percent,06:00
+energia,geracao_solar,31.2,kWh,09:00
+energia,consumo,68.5,kWh,09:00
+energia,reserva,42.1,percent,09:00
+energia,geracao_solar,35.0,kWh,12:00
+energia,consumo,74.0,kWh,12:00
+energia,reserva,38.6,percent,12:00
+energia,geracao_solar,29.8,kWh,15:00
+energia,consumo,76.5,kWh,15:00
+energia,reserva,34.2,percent,15:00
+energia,geracao_solar,18.0,kWh,18:00
+energia,consumo,80.0,kWh,18:00
+energia,reserva,28.9,percent,18:00
+energia,geracao_solar,0.0,kWh,21:00
+energia,consumo,65.0,kWh,21:00
+energia,reserva,22.3,percent,21:00
+ambiental,temperatura_interna,21.5,celsius,12:00
+ambiental,temperatura_externa,-87.0,celsius,12:00
+ambiental,radiacao,alta,nivel,12:00
+ambiental,qualidade_comunicacao,38.0,percent,12:00
+ambiental,velocidade_vento,45.2,km_h,12:00
+ambiental,temperatura_interna,19.8,celsius,18:00
+ambiental,temperatura_externa,-92.0,celsius,18:00
+ambiental,radiacao,critica,nivel,18:00
+ambiental,qualidade_comunicacao,22.0,percent,18:00
+ambiental,velocidade_vento,78.6,km_h,18:00
+log,BOOT_SISTEMA,Sistema inicializado com sucesso,info,00:00
+log,ALERTA_COMUNICACAO,Modulo de comunicacao offline — verificar antena,critico,02:15
+log,SENSOR_FALHA,Leitura de temperatura externa inconsistente (-120C),erro,04:30
+log,REINICIALIZACAO,Subsistema de navegacao reiniciado automaticamente,alerta,05:45
+log,ALERTA_ENERGIA,Reserva de energia abaixo de 35%,alerta,15:00
+log,MODO_ECONOMIA,Laboratorio desligado para preservar energia,info,16:20
+log,ALERTA_RADIACAO,Nivel de radiacao critico detectado — tempestade solar,critico,17:50
+log,PRIORIDADE_HABITAT,Energia redirecionada para habitat e suporte a vida,info,18:05
